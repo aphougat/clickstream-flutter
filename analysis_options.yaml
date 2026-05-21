@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Enforce consistent import ordering.
+    - directives_ordering
+    # Prefer const constructors where possible.
+    - prefer_const_constructors
+    - prefer_const_declarations
+    # Avoid print() in production; we intentionally keep it for SDK debug logs
+    # but wrap them so they can be conditionally compiled out.
+    - avoid_print
+    # Public API must be documented.
+    - public_member_api_docs

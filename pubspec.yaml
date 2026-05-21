@@ -1,0 +1,19 @@
+name: sa_clickstream
+description: SurveyAnalytica Clickstream SDK for Flutter — captures behavioral events and sends them to the SA workflow engine.
+version: 1.0.0
+homepage: https://surveyanalytica.com
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
